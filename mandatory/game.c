@@ -6,7 +6,7 @@
 /*   By: fbelkaid <fbelkaid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/20 22:13:21 by fbelkaid          #+#    #+#             */
-/*   Updated: 2024/07/19 14:58:31 by fbelkaid         ###   ########.fr       */
+/*   Updated: 2024/07/22 22:14:29 by fbelkaid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	key_press(int keycode, t_info *inf)
 	prev_pos_y = inf->p_positiony;
 	move_player(keycode, inf);
 	if (inf->collectibles == 0)
-		inf->path_exit = "./solonggpics/AnyConv.com__exit.xpm";
+		inf->path_exit = "./textures/AnyConv.com__exit.xpm";
 	if (inf->collectibles == 0
 		&& inf->map[inf->p_positiony][inf->p_positionx] == 'E')
 		destroy_all(inf, "\t\t\t\t\tYOU WIN  !!\t\t\t\t\t", 1);
@@ -42,11 +42,11 @@ int	close_window(t_info *inf)
 
 void	initialize_paths(t_info *inf)
 {
-	inf->path_player = "./solonggpics/AnyConv.com__player.xpm";
-	inf->path_exit = "./solonggpics/AnyConv.com__exit.xpm";
-	inf->path_collectible = "./solonggpics/AnyConv.com__collectbles.xpm";
-	inf->path_wall = "./solonggpics/AnyConv.com__wall.xpm";
-	inf->path_bg = "./solonggpics/AnyConv.com__ground.xpm";
+	inf->path_player = "./textures/AnyConv.com__player.xpm";
+	inf->path_exit = "./textures/AnyConv.com__exit.xpm";
+	inf->path_collectible = "./textures/AnyConv.com__collectbles.xpm";
+	inf->path_wall = "./textures/AnyConv.com__wall.xpm";
+	inf->path_bg = "./textures/AnyConv.com__ground.xpm";
 }
 
 void	initialize(char **map, t_info *inf)

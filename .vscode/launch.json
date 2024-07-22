@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/fbelkaid/desktop/soloooo/get_next_line",
+      "program": "/Users/fbelkaid/desktop/soloooo/get_next_line/build/Debug/outDebug"
+    }
+  ]
+}

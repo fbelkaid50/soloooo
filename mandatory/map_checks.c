@@ -6,7 +6,7 @@
 /*   By: fbelkaid <fbelkaid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/20 13:14:53 by fbelkaid          #+#    #+#             */
-/*   Updated: 2024/07/20 11:38:58 by fbelkaid         ###   ########.fr       */
+/*   Updated: 2024/07/22 22:21:51 by fbelkaid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	player_position(t_map *map_info, char **map)
 	int	i;
 	int	j;
 
+	map_info->player_x = 0;
+	map_info->player_y = 0;
 	i = 0;
 	while (map[i])
 	{
@@ -32,6 +34,8 @@ void	player_position(t_map *map_info, char **map)
 		}
 		i++;
 	}
+	if (map_info->player_x == 0 && map_info->player_y == 0)
+		free_map_on_error(map, "Error: Player not found\n");
 }
 
 void	initialize_and_check_map(t_map *map_info, char **map, char *map_file)
@@ -65,10 +69,7 @@ void	process_map_element(t_map *map_info, char **map, int i, int j)
 	}
 	if (map[i][j] != '1' && map[i][j] != '0' && map[i][j] != '\n'
 		&& map[i][j] != 'P' && map[i][j] != 'C' && map[i][j] != 'E')
-	{
-		ft_putstr_fd("Error: Map must have only 0, 1, P, C, E\n", 2);
-		exit(1);
-	}
+		free_map_on_error(map, "Error: Map must have only 0, 1, P, C, E\n");
 }
 
 void	process_map_elements(t_map *map_info, char **map)

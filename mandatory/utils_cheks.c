@@ -6,7 +6,7 @@
 /*   By: fbelkaid <fbelkaid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/18 23:50:52 by fbelkaid          #+#    #+#             */
-/*   Updated: 2024/07/20 11:42:16 by fbelkaid         ###   ########.fr       */
+/*   Updated: 2024/07/22 22:29:25 by fbelkaid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,7 @@ void	check_walls(char *map)
 			i++;
 		else
 		{
-			ft_putstr_fd("Error 1: Map must be surrounded by walls", 2);
+			ft_putstr_fd("Error: Map must have only 1 and 0\n", 2);
 			exit(1);
 		}
 	}
@@ -81,17 +81,17 @@ void	check_errors(t_map *map_info)
 {
 	if (map_info->player != 1)
 	{
-		ft_putstr_fd("Error: Map must have one player", 2);
+		ft_putstr_fd("Error: Map must have one player\n", 2);
 		exit(1);
 	}
 	if (map_info->collectible < 1)
 	{
-		ft_putstr_fd("Error: Map must have at least one collectible", 2);
+		ft_putstr_fd("Error: Map must have at least one collectible\n", 2);
 		exit(1);
 	}
 	if (map_info->exit != 1)
 	{
-		ft_putstr_fd("Error: Map must have one exit", 2);
+		ft_putstr_fd("Error: Map must have one exit\n", 2);
 		exit(1);
 	}
 }

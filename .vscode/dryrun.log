@@ -1,0 +1,8 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/fbelkaid/Desktop/soloooo'
+cc -Wall -Wextra -Werror -c get_next_line/get_next_line_utils.c -o get_next_line/get_next_line_utils.o
+ 
+cc -Wall -Wextra -Werror -c mandatory/game.c -o mandatory/game.o
+cc -Wall -Wextra -Werror -lmlx -framework OpenGL -framework Appkit ./mandatory/main.o ./mandatory/tools.o ./mandatory/map_checks.o ./mandatory/utils_cheks.o ./mandatory/moves.o ./mandatory/count_assets.o ./mandatory/draw.o ./get_next_line/get_next_line.o ./get_next_line/get_next_line_utils.o ./mandatory/game.o -o so_long
+make: Leaving directory `/Users/fbelkaid/Desktop/soloooo'
+ 

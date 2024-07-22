@@ -6,7 +6,7 @@
 /*   By: fbelkaid <fbelkaid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/11 00:26:12 by fbelkaid          #+#    #+#             */
-/*   Updated: 2024/07/20 11:39:47 by fbelkaid         ###   ########.fr       */
+/*   Updated: 2024/07/22 22:34:30 by fbelkaid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void	move_right(t_info *info)
 	else if (info->map[info->p_positiony][info->p_positionx + 1] == 'E'
 		&& info->collectibles == 0)
 		info->p_positionx++;
-	info->path_player = "./solonggpics/AnyConv.com__player.xpm";
+	info->path_player = "./textures/AnyConv.com__player.xpm";
 }
 
 void	move_up(t_info *inf)
@@ -68,7 +68,7 @@ void	move_left(t_info *inf)
 	else if (inf->map[inf->p_positiony][inf->p_positionx - 1] == 'E'
 		&& inf->collectibles == 0)
 		inf->p_positionx--;
-	inf->path_player = "./solonggpics/AnyConv.com__player.xpm";
+	inf->path_player = "./textures/AnyConv.com__player.xpm";
 }
 
 void	move_down(t_info *inf)

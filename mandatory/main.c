@@ -6,7 +6,7 @@
 /*   By: fbelkaid <fbelkaid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/19 16:43:05 by fbelkaid          #+#    #+#             */
-/*   Updated: 2024/07/20 11:31:15 by fbelkaid         ###   ########.fr       */
+/*   Updated: 2024/07/22 22:33:01 by fbelkaid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,11 @@ int	map_size(char *map_file)
 		exit(1);
 	}
 	line_read = get_next_line(fd);
+	if (line_read == NULL)
+	{
+		ft_putstr_fd("Check if the file is empty", 2);
+		exit(1);
+	}
 	size = 0;
 	while (line_read != NULL)
 	{

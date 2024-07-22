@@ -1,0 +1,486 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Mon Jul 22 23:07:07 2024
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 22)
+OBJ = $(SRC:.c=.o)
+# environment
+ 
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# makefile (from `Makefile', line 15)
+SRC = ./mandatory/main.c ./mandatory/tools.c ./mandatory/map_checks.c ./mandatory/utils_cheks.c ./mandatory/moves.c ./mandatory/count_assets.c ./mandatory/draw.c ./get_next_line/get_next_line.c ./get_next_line/get_next_line_utils.c ./mandatory/game.c
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/fbelkaid/Desktop/soloooo
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from `Makefile', line 24)
+MLX = -lmlx -framework OpenGL -framework Appkit
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_CWD = /Users/fbelkaid/desktop/soloooo
+# environment
+PATH = /Users/fbelkaid/.brew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+LIBRARY_PATH = /opt/homebrew/lib
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+LS_COLORS = di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
+# environment
+VSCODE_CODY_FILE_EXTENSION = 
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.aRPE0OudJI/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+HOMEBREW_TEMP = /tmp/fbelkaid/Homebrew/Temp
+# environment
+PWD = /Users/fbelkaid/desktop/soloooo
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/fbelkaid
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/fbelkaid/Library/Application Support/Code/CachedData/af28b32d7e553898b2a91af498b1fb666fdebe0c
+# environment
+LOGNAME = fbelkaid
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ZSH = /Users/fbelkaid/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+HOMEBREW_CACHE = /tmp/fbelkaid/Homebrew/Caches
+# environment
+SHLVL = 2
+# makefile (from `Makefile', line 18)
+CC = cc
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = fbelkaid
+# makefile
+.DEFAULT_GOAL := all
+# environment
+TERM_SESSION_ID = A31ADEF8-2C51-49AA-867B-DF7CE5DBDB65
+# makefile (from `Makefile', line 13)
+NAME = so_long
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/zz/zyxvpxvq6csfxvn_n000cc8c003323/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/fbelkaid/Library/Application Support/Code/1.85-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 433
+# environment
+XPC_SERVICE_NAME = com.microsoft.VSCode.4784.81AAF372-6436-4A1C-B3D2-86C1136635DC
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x18C43:0x0:0x0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 20)
+FLAGS = -Wall -Wextra -Werror
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 1535
+# variable set hash-table stats:
+# Load=77/1024=8%, Rehash=0, Collisions=3/109=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777225, inode 6858510): 10 files, no impossibilities.
+# get_next_line (device 16777225, inode 6927475): 5 files, no impossibilities so far.
+# mandatory (device 16777225, inode 6927478): 16 files, no impossibilities so far.
+
+# 31 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  commands to execute (from `Makefile', line 29):
+	$(CC) $(FLAGS) -c $< -o $@
+	
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+ 
+mandatory/draw.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-22 23:04:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+mandatory/count_assets.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-22 23:04:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all: so_long
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+# Not a target:
+mandatory/tools.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-22 23:04:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+mandatory/map_checks.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-22 23:04:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+get_next_line/get_next_line_utils.o: get_next_line/get_next_line_utils.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `get_next_line/get_next_line_utils'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := get_next_line/get_next_line_utils.o
+# automatic
+# % := 
+# automatic
+# * := get_next_line/get_next_line_utils
+# automatic
+# + := get_next_line/get_next_line_utils.c
+# automatic
+# | := 
+# automatic
+# < := get_next_line/get_next_line_utils.c
+# automatic
+# ^ := get_next_line/get_next_line_utils.c
+# automatic
+# ? := get_next_line/get_next_line_utils.c
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
+#  commands to execute (from `Makefile', line 29):
+	$(CC) $(FLAGS) -c $< -o $@
+	
+
+# Not a target:
+mandatory/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-22 23:04:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+mandatory/utils_cheks.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-22 23:04:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-22 23:06:55
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+fclean: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 38):
+	rm -f $(NAME) 
+	
+
+# Not a target:
+get_next_line/get_next_line_utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-22 23:06:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+get_next_line/get_next_line.o: get_next_line/get_next_line.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `get_next_line/get_next_line'
+#  Last modified 2024-07-22 23:06:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 29):
+	$(CC) $(FLAGS) -c $< -o $@
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+mandatory/moves.o: mandatory/moves.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `mandatory/moves'
+#  Last modified 2024-07-22 23:06:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 29):
+	$(CC) $(FLAGS) -c $< -o $@
+	
+
+mandatory/draw.o: mandatory/draw.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `mandatory/draw'
+#  Last modified 2024-07-22 23:06:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 29):
+	$(CC) $(FLAGS) -c $< -o $@
+	
+
+mandatory/count_assets.o: mandatory/count_assets.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `mandatory/count_assets'
+#  Last modified 2024-07-22 23:06:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 29):
+	$(CC) $(FLAGS) -c $< -o $@
+	
+
+re: fclean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mandatory/game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 35):
+	rm -f $(OBJ) 
+	
+
+mandatory/tools.o: mandatory/tools.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `mandatory/tools'
+#  Last modified 2024-07-22 23:06:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 29):
+	$(CC) $(FLAGS) -c $< -o $@
+	
+
+so_long: mandatory/main.o mandatory/tools.o mandatory/map_checks.o mandatory/utils_cheks.o mandatory/moves.o mandatory/count_assets.o mandatory/draw.o get_next_line/get_next_line.o get_next_line/get_next_line_utils.o mandatory/game.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+#  commands to execute (from `Makefile', line 32):
+	$(CC) $(FLAGS) $(MLX) $(OBJ) -o $(NAME)
+	
+
+mandatory/map_checks.o: mandatory/map_checks.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `mandatory/map_checks'
+#  Last modified 2024-07-22 23:06:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 29):
+	$(CC) $(FLAGS) -c $< -o $@
+	
+
+mandatory/main.o: mandatory/main.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `mandatory/main'
+#  Last modified 2024-07-22 23:06:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 29):
+	$(CC) $(FLAGS) -c $< -o $@
+	
+
+mandatory/utils_cheks.o: mandatory/utils_cheks.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `mandatory/utils_cheks'
+#  Last modified 2024-07-22 23:06:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 29):
+	$(CC) $(FLAGS) -c $< -o $@
+	
+
+# Not a target:
+get_next_line/get_next_line.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-22 23:06:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+mandatory/moves.c:
+#  Implicit rule search has been done.
+#  Last modified 2024-07-22 23:04:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=27/1024=3%, Rehash=0, Collisions=0/81=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+ 
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Mon Jul 22 23:07:07 2024
+
+ 
